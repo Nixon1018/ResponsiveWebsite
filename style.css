@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+.container{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+
+   padding: 0 7%;
+   /* background-color: #0000007a; */
+   color: #eee;
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding: 20px 0%;
+    justify-content: space-between;
+    color: #eee;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #eee;
+
+     
+}
+nav ul li a:hover{
+    
+    color: #091358;
+    border-bottom: solid #091358 2px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #eee;
+}
+h4{
+    font-size: 20px;
+}
+.content a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.browse{
+    background-color: #eee; 
+    width: 90px;
+    margin: 30px;
+    border-radius: 20px;
+    color: #091358;
+    text-align: center;
+}
+.browse:hover{
+    background-color: #091358; 
+    color: #eee;
+}
+section{
+    color: #000;
+    width: 100%;
+    margin: 80px auto;
+}
+.middle{
+    font-size: 4vmin;
+    text-align: center;
+
+}
+.row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.row .column-1 a,.column-2 a{
+    text-decoration: none;
+    background-color: #091358;
+    color: #eee;
+    padding: 10px;
+    margin-top:20px ;
+    
+}
+.row .column-1 a:hover,.column-2 a:hover{
+    background-color:#eee;
+    color: #091358;
+    border: solid 2px #091358;
+    
+}
+
+
+.column-1,.column-2
+{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.column-1 img
+{
+    width: 70%;
+    height: 100%;
+    border: 4px solid gray;
+    
+    margin: 30px;
+    
+}
+.column-2 img
+{
+    width: 70%;
+    height: 100%;
+    border: 4px solid gray;
+    margin: 30px;
+    
+}
+
+.footer{
+    width:100%;
+    height: 50px;
+   
+    margin: 0;
+    background-color: #091358;
+    text-align: center;
+    color: #eee;
+
+}
+
+@media (max-width: 400px)
+{
+*
+{
+    color:#debb1f;
+}
+.row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.column-1 img,.column-2 img
+{
+    width: 100%;
+}
+
+   
+}
